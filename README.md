@@ -8,9 +8,19 @@ Error: The result of this StaticQuery could not be fetched.
 
 This approach is recommended in the [Gatsby docs on how to run a custom preview instance on Heroku](https://www.gatsbyjs.org/docs/running-a-gatsby-preview-server/).
 
+## Prerequisites
+
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
 ## Steps to reproduce
 
-1. Clone this repo
+1. Clone this repo and jump in:
+
+```
+  git clone https://github.com/woodwoerk/heroku-gatsby-dev-bug-repro.git
+  cd heroku-gatsby-dev-bug-repro
+```
+
 2. Create a new Heroku site via the heroku cli:
 
 ```
