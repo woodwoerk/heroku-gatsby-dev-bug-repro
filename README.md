@@ -22,6 +22,7 @@ This approach is recommended in the [Gatsby docs on how to run a custom preview 
 ```
   heroku config:set NODE_ENV=development
   heroku config:set NPM_CONFIG_PRODUCTION=false
+  heroku config:set ENABLE_GATSBY_REFRESH_ENDPOINT=true
 ```
 
 4. Deploy to Heroku:
